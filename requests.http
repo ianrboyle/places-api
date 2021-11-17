@@ -5,3 +5,12 @@ Content-Type: application/json
   "name": "Bunker Hill",
   "address": "Some st. in Boston"
 }
+
+### 
+PUT http://localhost:3000/places/1.json
+Content-Type: application/json
+
+{
+  "name": "City Park",
+  "address": "Some st. in Denver"
+}
