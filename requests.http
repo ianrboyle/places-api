@@ -1,0 +1,7 @@
+POST http://localhost:3000/places.json
+Content-Type: application/json
+
+{
+  "name": "Bunker Hill",
+  "address": "Some st. in Boston"
+}
