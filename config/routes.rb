@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   get "/places" => "places#index"
   get "/places/:id" => "places#show"
-  delete "/places" => "places#destroy"
+  delete "/places/:id" => "places#destroy"
   post "/places" => "places#create"
   put "/places/:id" => "places#update"
 

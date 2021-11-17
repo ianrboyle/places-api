@@ -2,8 +2,8 @@ POST http://localhost:3000/places.json
 Content-Type: application/json
 
 {
-  "name": "Bunker Hill",
-  "address": "Some st. in Boston"
+  "name": "ffefewfew",
+  "address": "fwefwef"
 }
 
 ### 
@@ -14,3 +14,6 @@ Content-Type: application/json
   "name": "City Park",
   "address": "Some st. in Denver"
 }
+
+###
+DELETE http://localhost:3000/places/3.json
